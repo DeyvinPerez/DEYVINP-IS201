@@ -1,0 +1,40 @@
+/* Stylesheet */
+
+/* Style definitions */
+.heading {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: navy;
+    padding: 10px;
+  }
+  
+  .paragraph {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: darkgreen;
+    padding: 10px;
+  }
+  
+  .button {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: maroon;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightgray;
+  }
+  
+  /* HTML */
+  <div class="container">
+    <div class="heading">Header</div>
+    <div class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+    <button class="button">Click me</button>
+  </div>
